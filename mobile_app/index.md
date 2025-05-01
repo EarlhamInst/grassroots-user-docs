@@ -12,7 +12,16 @@ Whilst it is still in prototyping, there will be only be one simple study with Q
 
 ## Getting Started
 
-On the the home screen the user can select a study by clicking on the study name from a dropdown menu. 
+On the the home screen the user can select to create a study or go to an existing one. 
+
+![The Grassroots mobile app home screen](images/home.png "The Grassroots mobile app home screen")
+
+### Browse all studies
+
+Clicking on the `Browse all studies` button will take you to a screen with a dropdown list of the available studies.
+You can either by clicking on the study name from a dropdown menu. 
+
+
 
 <div align="center">
     <img src="images/1_home.jpeg" width="250px"/>
@@ -26,6 +35,37 @@ Once a study is selected, the app will display a menu for selecting any plot by 
 </div>
 
 The general details from the study can be displayed by clicking on the `View Study Details` button. 
+
+The next two drop down menus allow you specify the Field Trial that this Study is a part of and the Location where the Study is taking place.
+
+### Create Study
+
+Although the fully-fledged [study editor](https://grassroots.tools/docs/user/services/field_trial/submit_study.md) has options to specify many pieces of metadata, it is possible to create a minimal version of a Study within the app itself. 
+Clicking on the `Create Study` button will take you to a screen where you can add this minimal data
+
+![Study Creator](images/create_study_1.png "Create a new Study")
+
+The top text box is where you can specify the name of the new Study
+
+The next item is a drop down menu that allows you to choose which existing Field Trial that the Study is a part of.
+
+The item below that is a drop down menu allowing you to specify the existing location where the Study is.
+
+The next two text boxes allow you to specify the number of rows and columns within the study respectively.
+
+The final field in the form is where you can specify the phenotypes that will be measured within the Study. Clicking on this will take you to a screen where you can search for phenotypes.
+
+
+![Search for phenotypes](images/phenotypes.png "The phenotype search screen")
+
+At the top of this screen is a text box where you can type in a search term to look for phenotype definitions. 
+Pressing enter will search for matching phenotypes and you can select them by clicking the checkboxes on the right-hand side of each row. 
+For example, in the screenshot above a search on _heading_ has produced a list of matching phenotypes with `Hd_date_ymd` and `Hd_dto_day` being selected. 
+Clicking on the back arrow will return you to the _Create Study_ screen 
+
+![Study Creator](images/create_study_2.png "Create a new Study")
+
+Once you are ready, clicking on the `Submit` button will create the Study and it will be ready to use
 
 ## Submitting Observations
 

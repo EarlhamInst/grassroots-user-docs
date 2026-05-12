@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The mobile app displays and submit the observations in field trials. It is written in Flutter and will available for both Android and iOS. The current version is an MVP and it is only available for Android.
+The mobile app displays and submit the observations in field trials. It is written in Flutter and will available for both Android and iOS. The current version is an MVP and it is available for Android and iOS.
 
 <!--The app scans QR codes which identify individual plots within a field trial study. It then displays the details of the plot on the screen. The user has the option to enter new observations for the plot and submit them to the Grassroots Field Trial system. -->
 

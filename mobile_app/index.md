@@ -2,20 +2,25 @@
 
 ## Introduction
 
-The mobile app displays and submits the observations in field trials. It is written in Flutter and will available for both Android and iOS. The current version is a prototype and is only available for Android.
+The mobile app displays and submit the observations in field trials. It is written in Flutter and will available for both Android and iOS. The current version is an MVP and it is only available for Android.
 
-The app scans QR codes which identify individual plots within a field trial study. It then displays the details of the plot on the screen. The user has the option to enter new observations for the plot and submit them to the Grassroots Field Trial system.
+<!--The app scans QR codes which identify individual plots within a field trial study. It then displays the details of the plot on the screen. The user has the option to enter new observations for the plot and submit them to the Grassroots Field Trial system. -->
 
-The app can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=tools.grassroots.qr_reader).
+The app is can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=uk.ac.earlham.grassroots.field_trials), or from the Apple store [Apple Store](https://apps.apple.com/app/grassroots-field-trials/id6760410828).
 
-Whilst it is still in prototyping, there will be only be one simple study with QR codes available. 
+<!--Whilst it is still in prototyping, there will be only be one simple study with QR codes available. --> 
 
 ## Getting Started
 
 On the the home screen the user can select to create a study or go to an existing one. 
 
-![The Grassroots mobile app home screen](images/home.png "The Grassroots mobile app home screen")
+<!--![The Grassroots mobile app home screen](images/home_screen.jpeg "The Grassroots mobile app home screen")-->
 
+<div align="center">
+    <img src="images/home_screen.jpeg" width="250px"/>
+</div>
+
+<br/>
 ### Browse all studies
 
 Clicking on the `Browse all studies` button will take you to a screen with a dropdown list of the available studies.
@@ -23,14 +28,19 @@ You can either by clicking on the study name from a dropdown menu.
 
 
 
-<div align="center">
+<!-- <div align="center">
     <img src="images/1_home.jpeg" width="250px"/>
-</div>
+</div> -->
 
-Once a study is selected, the app will display a menu for selecting any plot by its plot index. If the plot has any recorded observations, the total number of observations in that plot will be displayed. The user can then select a phenotype to open a table that shows all of the plot's observations. The table shows the phenotype, date and any additional notes.
+Once a study is selected, the app will display a menu for selecting any plot by its plot index. If the plot has any recorded observations, the total number of observations in that plot will be displayed.
  
 <div align="center">
     <img src="images/2_study_page.jpeg" width="250px"/>
+</div>
+
+The user can then select a phenotype to open a table that shows all of the plot's observations. The table shows the phenotype, date and any additional notes.
+
+<div align="center">
     <img src="images/3_table_observations.jpeg" width="250px"/>
 </div>
 
@@ -90,5 +100,3 @@ The user can also take a photo and attach it to the selected plot. The photo can
     <img src="images/5_submit_photo.jpeg" width="249px"/>
     <img src="images/6_photo_retrieved.jpeg" width="250px"/>
 </div>
- 
-
